@@ -35,7 +35,7 @@ const Bolsa = ({ bolsaCompra, setCompra }) => {
       { bolsaCompra.length > 0 && <Notificacion>{cantidad}</Notificacion>} 
       {open && (
         <Car>
-       { cantidad > 0 ? <h3>total añadido = <span>${total}.00 </span></h3> : <h2>El carrito esta vacio,<br/> !Añade algun producto¡</h2>}   
+       { cantidad > 0 ? <h3>total añadido = <span>${total}.00 </span></h3> : <h2>El carrito esta vacio,<br/> ¡Añade algun producto!</h2>}   
           <TablaDeProductos bolsaCompra={bolsaCompra} setCompra={setCompra} />
         </Car>
       )}
